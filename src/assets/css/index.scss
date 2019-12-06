@@ -1,0 +1,20 @@
+@import "variable.scss";
+@import "base.scss";
+html{
+    width: 100%;
+    height: 100%;
+    font-size:16px;
+}
+body{
+    height: 100%
+}
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size:16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
+@import "home.scss"

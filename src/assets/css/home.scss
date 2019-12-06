@@ -1,0 +1,86 @@
+@import "variable.scss";
+.home {
+    width: 100%;
+    height: 100%;
+    .app_top {
+        width: 100%;
+        height: set(100px);
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        z-index: 9;
+        .mint-header{
+            height: set(100px);
+        }
+    }
+    .app_banner {
+        margin-top: set(100px);
+        height: set(400px);
+        img {
+            width: 100%;
+            height: 100%
+        }
+    }
+    .app_nav {
+        height: set(200px)
+    }
+}
+.topbar{
+    height: 100%;
+    .mint-button--default {
+        background-color: #ff5722;
+        color: #fff
+    }
+    .mint-header {
+        background-color: #ff5722;
+    }
+    .search {
+        position: fixed;
+        width: 100%;
+        height: set(80px);
+        top: set(10px);
+        right: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        padding: 0 5px;
+        box-sizing: border-box;
+        input {
+            border: none;
+            flex: 1;
+            height: 100%;
+            padding: 0 5px;
+        }
+        .mint-button{
+            width: 50px;
+            height: 100%;
+            border-radius: 0;
+            label {
+                font-size: set(16px)
+            }
+        }
+    }
+    .mint-searchbar {
+        background-color: transparent;
+        padding: 0;
+    }
+}
+.mui-segmented-control.mui-scroll-wrapper {
+    height: 100%;
+    .mui-scroll{
+        height: 100%
+    }
+}
+.navUl {
+    display: flex;
+    li {
+        width: set(120px);
+        height: set(150px);
+        margin: set(14px);
+        img {
+            width: set(100px);
+            height: set(100px);
+        }
+    }
+}
